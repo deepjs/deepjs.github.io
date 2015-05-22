@@ -20,12 +20,24 @@
     "tests"
   ],
   "dependencies": {
+    "decompose": ">=1.0.1",
+    "deep-compiler": ">=1.0.0",
+    "deep-flatten": ">=1.0.0",
+    "deep-modes": ">=0.9.0",
+    "deep-nodes": ">=1.0.0",
+    "deep-ocm": ">=1.0.0",
+    "deep-promise": ">=1.0.0",
+    "deep-protocols": ">=1.0.0",
+    "deep-sheets": ">=1.0.0",
+    "deep-utils": ">=1.0.0",
     "deep-views": "~0.2.6",
     "deepjs": "~0.15.2",
     "github-fork-ribbon-css": "~0.1.1",
     "font-awesome": "~4.3.0",
     "bootstrap": "~3.3.4",
     "jquery": "1.11.3",
-    "jquery-easing": "*"
+    "jquery-easing": "*",
+    "kroked": "0.1.5",
+    "rql": "0.3.3"
   }
 }
