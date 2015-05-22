@@ -109,7 +109,7 @@ html {
     color: #fff; }
 
 .getting-started-section {
-  height: 100%;
+  min-height: 100%;
   padding-top: 150px;
   text-align: center;
   background: #64CCE6;
@@ -133,6 +133,10 @@ html {
   text-align: center;
   color: #FFF;
   padding-top: 10px; }
+
+@media (max-width: 600px) {
+  .footer {
+    height: 180px; } }
 
 .glyphicon-lg {
   font-size: 3.5em;
