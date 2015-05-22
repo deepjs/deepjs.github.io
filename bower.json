@@ -1,0 +1,31 @@
+{
+  "name": "deepjs.org-2015",
+  "version": "0.0.0",
+  "authors": [
+    "Gilles Coomans <gilles.coomans@gmail.com>"
+  ],
+  "description": "deepjs official web site",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "deep-views": "~0.2.6",
+    "deepjs": "~0.15.2",
+    "github-fork-ribbon-css": "~0.1.1",
+    "font-awesome": "~4.3.0",
+    "bootstrap": "~3.3.4",
+    "jquery": "1.11.3",
+    "jquery-easing": "*"
+  }
+}

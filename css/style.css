@@ -1,0 +1,187 @@
+/*'Open Sans', sans-serif;*/
+/*________________________ colors */
+/* blue */
+/* brown */
+/* almost black grey */
+/*'Open Sans', sans-serif;*/
+/*________________________ colors */
+/* blue */
+/* brown */
+/* almost black grey */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lobster);
+.dp-try {
+  color: #000;
+  margin: auto;
+  max-width: 400px; }
+  .dp-try .dp-try-output {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 4px;
+    text-align: left;
+    max-width: 400px; }
+  .dp-try .dp-try-code {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-bottom: 4px; }
+  .dp-try .dp-try-editor {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    text-align: left;
+    padding-left: 10px;
+    color: #fff; }
+
+.code {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: auto;
+  background: #FFF;
+  margin-top: 4px;
+  max-width: 330px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #111; }
+
+.code-box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  margin: auto;
+  background: #393532;
+  margin-top: 4px;
+  max-width: 400px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #FFF; }
+
+/*________________________ fonts */
+.color-1 {
+  color: #64CCE6; }
+
+.color-2 {
+  color: #393532; }
+
+/*_________________________ */
+body {
+  font: 100% "Source Sans Pro", sans-serif;
+  color: #111;
+  width: 100%;
+  height: 100%;
+  /*margin-bottom: 60px;*/ }
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  position: relative;
+  min-height: 100%; }
+
+/*__________________ SECTIONS */
+.intro-section {
+  height: 100%;
+  padding-top: 100px;
+  text-align: center;
+  background: #64CCE6;
+  color: #FFF; }
+  .intro-section a {
+    color: #FFF; }
+
+.generics-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #64CCE6;
+  text-align: center;
+  background: #393532;
+  min-height: 100%; }
+  .generics-section p, .generics-section a {
+    color: #fff; }
+
+.getting-started-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #64CCE6;
+  color: #FFF; }
+  .getting-started-section a {
+    color: #FFF; }
+
+.autobahnjs-section {
+  min-height: 100%;
+  color: #64CCE6;
+  padding-top: 150px;
+  text-align: center;
+  background: #393532; }
+  .autobahnjs-section p, .autobahnjs-section a {
+    color: #fff; }
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #64CCE6;
+  text-align: center;
+  color: #FFF;
+  padding-top: 10px; }
+
+.glyphicon-lg {
+  font-size: 3.5em;
+  color: #CBF3FF; }
+
+.glyphicon-md {
+  font-size: 2.5em; }
+
+.logo {
+  font-family: "Lobster", cursive; }
+
+.logo-lg {
+  font-size: 4em;
+  margin-bottom: 30px; }
+
+.baseline {
+  margin-bottom: 20px;
+  letter-spacing: 0.1em; }
+
+.lib-cell {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .lib-cell p {
+    /*text-transform: uppercase;*/ }
+  .lib-cell h3 {
+    color: #64CCE6;
+    font-family: "Lobster", cursive;
+    font-weight: 400; }
+
+/*_______________________ GITHUB RIBBON */
+.github-fork-ribbon {
+  background-color: #C85202; }
+
+a:focus {
+  outline: 0; }
+
+.circle {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 4px solid #64CCE6;
+  width: 1.4em;
+  height: 1.4em;
+  font-size: 2em;
+  text-align: center;
+  line-height: 1em;
+  display: inline-block;
+  font-weight: 700; }
+
+.bottom-border {
+  border-bottom: 1px dotted #64CCE6; }

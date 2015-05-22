@@ -1,0 +1,45 @@
+hover
+rise
+emerge
+above
+emerged
+
+autobahn
+
+
+deep.js
+	decompose
+	deep-compiler
+	deep-nodes
+
+	deep-promise
+
+	deep-protocols
+
+	deep-flatten
+	deep-sheets
+
+	deep-modes
+
+	deep-ocm
+
+	deep-utils
+
+	deep.compose.nodes().after(...).flatten().log();
+	deep.nodes(obj, schema).done(...).flatten().log();
+
+
+deep-shell
+
+
+autobahn.js
+
+	autobahn-app
+
+	autobahn-views
+
+	autobahn-restful
+
+	autobahn-routes
+
+	autobahn-express

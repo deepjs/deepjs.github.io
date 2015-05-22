@@ -1,0 +1,34 @@
+{
+  "name": "kroked",
+  "main": "index.js",
+  "version": "0.1.5",
+  "homepage": "https://github.com/nomocas/kroked",
+  "authors": [
+    "Gilles Coomans <gilles.coomans@gmail.com>"
+  ],
+  "description": "custom markdown parser (marked) with macros support",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "markdown",
+    "marked",
+    "macro",
+    "template"
+  ],
+  "license": "LGPL 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "_release": "0.1.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.5",
+    "commit": "eefaf4a29941b4f90fd2e6ce6ccdd4c5d70ce0db"
+  },
+  "_source": "git://github.com/nomocas/kroked.git",
+  "_target": ">=0.1.5",
+  "_originalSource": "kroked"
+}

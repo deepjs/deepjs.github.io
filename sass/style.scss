@@ -1,0 +1,146 @@
+@import 'mixins';
+@import 'variables';
+@import 'dp-try';
+/*________________________ fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lobster);
+.color-1 {
+	color: $color1;
+}
+
+.color-2 {
+	color: $color2;
+}
+/*_________________________ */
+
+body {
+	font: 100% $block-font;
+	color: $color4;
+	width: 100%;
+	height: 100%;
+	/*margin-bottom: 60px;*/
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	font-size: 15px;
+	position: relative;
+	min-height: 100%;
+}
+/*__________________ SECTIONS */
+
+.intro-section {
+	height: 100%;
+	padding-top: 100px;
+	text-align: center;
+	background: $color1;
+	color: $color3;
+	a {
+		color: $color3;
+	}
+}
+
+.generics-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: $color1;
+	text-align: center;
+	background: $color2;
+	min-height: 100%;
+	p, a {
+		color: #fff;
+	}
+}
+
+.getting-started-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background: $color1;
+	color: $color3;
+	a {
+		color: $color3;
+	}
+}
+
+.autobahnjs-section {
+	min-height: 100%;
+	color: $color1;
+	padding-top: 150px;
+	text-align: center;
+	background: $color2;
+	p, a {
+		color: #fff;
+	}
+}
+
+.footer {
+	width: 100%;
+	height: 70px;
+	background-color: $color1;
+	text-align: center;
+	color: $color3;
+	padding-top: 10px;
+}
+
+.glyphicon-lg {
+	font-size: 3.5em;
+	color: $color1-2;
+}
+
+.glyphicon-md {
+	font-size: 2.5em;
+}
+
+.logo {
+	font-family: $logo-font;
+}
+
+.logo-lg {
+	font-size: 4em;
+	margin-bottom: 30px;
+}
+
+.baseline {
+	margin-bottom: 20px;
+	letter-spacing: 0.1em;
+}
+
+.lib-cell {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	p {
+		/*text-transform: uppercase;*/
+	}
+	h3 {
+		color: $color1;
+		font-family: $logo-font;
+		font-weight: 400;
+	}
+}
+/*_______________________ GITHUB RIBBON */
+
+.github-fork-ribbon {
+	background-color: #C85202;
+}
+
+a:focus {
+	outline: 0;
+}
+
+.circle {
+	@include border-radius(50%);
+	border: 4px solid $color1;
+	width: 1.4em;
+	height: 1.4em;
+	font-size: 2em;
+	text-align: center;
+	line-height: 1em;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.bottom-border {
+	border-bottom: 1px dotted $color1;
+}

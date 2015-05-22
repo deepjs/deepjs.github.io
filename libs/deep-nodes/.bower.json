@@ -1,0 +1,37 @@
+{
+  "name": "deep-nodes",
+  "version": "1.0.0",
+  "homepage": "https://github.com/deepjs/deep-nodes",
+  "authors": [
+    "Gilles Coomans <gilles.coomans@gmail.com>"
+  ],
+  "description": "Javascript object property descriptor and associate DSL : Object queries, RQL and traversal.",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "javascript",
+    "json-query",
+    "rql",
+    "tree traversal",
+    "property descriptor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "2b109be66b93afa7b55bc1560ce306cb5dd236b3"
+  },
+  "_source": "git://github.com/deepjs/deep-nodes.git",
+  "_target": ">=1.0.0",
+  "_originalSource": "deep-nodes"
+}

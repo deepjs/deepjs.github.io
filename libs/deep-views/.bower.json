@@ -1,0 +1,42 @@
+{
+  "name": "deep-views",
+  "main": "index.js",
+  "version": "0.2.6",
+  "homepage": "https://github.com/deepjs/deep-views",
+  "authors": [
+    "Gilles Coomans <gilles.coomans@gmail.com>"
+  ],
+  "description": "Views controller, dom directives and dom-sheets for deepjs",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "views",
+    "controller",
+    "directives",
+    "deepjs"
+  ],
+  "license": "LGPL 3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "deepjs": ">=0.15.2",
+    "kroked": ">=0.1.5"
+  },
+  "_release": "0.2.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.6",
+    "commit": "897eef02362296eaba818b3b6440edae3eefe7e1"
+  },
+  "_source": "git://github.com/deepjs/deep-views.git",
+  "_target": "~0.2.6",
+  "_originalSource": "deep-views",
+  "_direct": true
+}

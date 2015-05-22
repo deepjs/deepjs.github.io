@@ -1,0 +1,14 @@
+{
+  "name": "rql",
+  "homepage": "https://github.com/persvr/rql",
+  "version": "0.3.3",
+  "_release": "0.3.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.3",
+    "commit": "f3640c368d074ce19b87615f65f0c4c1f5494cff"
+  },
+  "_source": "git://github.com/persvr/rql.git",
+  "_target": ">=0.3.1",
+  "_originalSource": "rql"
+}
