@@ -1,6 +1,4 @@
-/**
- * @author Gilles Coomans <gilles.coomans@gmail.com>
- */
+/**  @author Gilles Coomans <gilles.coomans@gmail.com> */
 if (typeof define !== 'function')
 	var define = require('amdefine')(module);
 define(["require", "deepjs/deep", "deep-views/index"], function(require, deep) {
@@ -51,7 +49,6 @@ define(["require", "deepjs/deep", "deep-views/index"], function(require, deep) {
 			id = "dp-try-" + Date.now().valueOf();
 
 		closure.code = $(this).text().trim();
-		console.log('closure.code : ', "|" + closure.code + "|");
 		$(this).empty();
 
 		var textNode = $('<div class="dp-try-code"></div>').appendTo(node);

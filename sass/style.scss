@@ -3,7 +3,7 @@
 @import 'dp-try';
 /*________________________ fonts */
 
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lobster);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lobster|Source+Code+Pro);
 .color-1 {
 	color: $color1;
 }
@@ -42,8 +42,8 @@ html {
 }
 
 .generics-section {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 60px;
+	padding-bottom: 70px;
 	color: $color1;
 	text-align: center;
 	background: $color2;
@@ -55,7 +55,8 @@ html {
 
 .getting-started-section {
 	min-height: 100%;
-	padding-top: 150px;
+	padding-top: 60px;
+	padding-bottom: 70px;
 	text-align: center;
 	background: $color1;
 	color: $color3;
@@ -67,7 +68,8 @@ html {
 .autobahnjs-section {
 	min-height: 100%;
 	color: $color1;
-	padding-top: 150px;
+	padding-bottom: 70px;
+	padding-top: 70px;
 	text-align: center;
 	background: $color2;
 	p, a {
@@ -109,7 +111,7 @@ html {
 }
 
 .baseline {
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	letter-spacing: 0.1em;
 }
 

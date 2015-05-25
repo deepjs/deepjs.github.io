@@ -3,12 +3,14 @@
 /* blue */
 /* brown */
 /* almost black grey */
+/* orange dark */
 /*'Open Sans', sans-serif;*/
 /*________________________ colors */
 /* blue */
 /* brown */
 /* almost black grey */
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Lobster);
+/* orange dark */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Lobster|Source+Code+Pro);
 .dp-try {
   color: #000;
   margin: auto;
@@ -20,14 +22,18 @@
     border-radius: 10px;
     margin-top: 4px;
     text-align: left;
-    max-width: 400px; }
+    max-width: 400px;
+    padding: 10px;
+    border-color: #393532; }
   .dp-try .dp-try-code {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     border-radius: 10px;
     background: #FFF;
-    margin-bottom: 4px; }
+    margin-bottom: 4px;
+    padding: 5px;
+    border: 1px solid #20AACD; }
   .dp-try .dp-try-editor {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -35,8 +41,11 @@
     border-radius: 10px;
     margin-bottom: 4px;
     text-align: left;
-    padding-left: 10px;
-    color: #fff; }
+    color: #fff;
+    padding: 5px; }
+  .dp-try button {
+    border-color: #393532;
+    margin-right: 3px; }
 
 .code {
   -webkit-border-radius: 10px;
@@ -59,12 +68,15 @@
   border-radius: 10px;
   margin: auto;
   background: #393532;
-  margin-top: 4px;
+  margin-top: 0px;
+  margin-bottom: 4px;
   max-width: 400px;
   text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: #FFF; }
+  padding: 10px;
+  color: #FFF;
+  text-align: left;
+  font-family: "Source Code Pro", monospace;
+  font-size: 11px; }
 
 /*________________________ fonts */
 .color-1 {
@@ -99,8 +111,8 @@ html {
     color: #FFF; }
 
 .generics-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 60px;
+  padding-bottom: 70px;
   color: #64CCE6;
   text-align: center;
   background: #393532;
@@ -110,7 +122,8 @@ html {
 
 .getting-started-section {
   min-height: 100%;
-  padding-top: 150px;
+  padding-top: 60px;
+  padding-bottom: 70px;
   text-align: center;
   background: #64CCE6;
   color: #FFF; }
@@ -120,7 +133,8 @@ html {
 .autobahnjs-section {
   min-height: 100%;
   color: #64CCE6;
-  padding-top: 150px;
+  padding-bottom: 70px;
+  padding-top: 70px;
   text-align: center;
   background: #393532; }
   .autobahnjs-section p, .autobahnjs-section a {
@@ -153,7 +167,7 @@ html {
   margin-bottom: 30px; }
 
 .baseline {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   letter-spacing: 0.1em; }
 
 .lib-cell {

@@ -9,18 +9,26 @@
 		margin-top: 4px;
 		text-align: left;
 		max-width: 400px;
+		padding: 10px;
+		border-color: $color2;
 	}
 	.dp-try-code {
 		@include border-radius(10px);
 		background: #FFF;
 		margin-bottom: 4px;
+		padding: 5px;
+		border: 1px solid $color1-3;
 	}
 	.dp-try-editor {
 		@include border-radius(10px);
 		margin-bottom: 4px;
 		text-align: left;
-		padding-left: 10px;
 		color: #fff;
+		padding: 5px;
+	}
+	button {
+		border-color: $color2;
+		margin-right: 3px;
 	}
 }
 
@@ -40,10 +48,13 @@
 	@include border-radius(10px);
 	margin: auto;
 	background: $color2;
-	margin-top: 4px;
+	margin-top: 0px;
+	margin-bottom: 4px;
 	max-width: 400px;
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding: 10px;
 	color: #FFF;
+	text-align: left;
+	font-family: $code-font;
+	font-size: 11px;
 }
