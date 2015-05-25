@@ -1,0 +1,33 @@
+{
+  "name": "deepjs.github.io",
+  "version": "0.0.0",
+  "description": "official web site for deepjs",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-live-server": "~0.0.14",
+    "gulp-jshint": "~1.10.0",
+    "gulp-rename": "~1.2.2",
+    "gulp-sass": "~2.0.1",
+    "jshint-stylish": "~1.0.2",
+    "gulp-uglifyjs": "~0.6.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deepjs/deepjs.github.io.git"
+  },
+  "keywords": [
+    "deepjs",
+    "official"
+  ],
+  "author": "Gilles Coomans <gilles.coomans@gmail.com>",
+  "license": "Creative Common",
+  "bugs": {
+    "url": "https://github.com/deepjs/deepjs.github.io/issues"
+  },
+  "homepage": "https://github.com/deepjs/deepjs.github.io"
+}
