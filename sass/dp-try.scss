@@ -4,19 +4,22 @@
 	color: #000;
 	margin: auto;
 	max-width: 400px;
+	font-size: 14px;
 	.dp-try-output {
 		@include border-radius(10px);
 		margin-top: 4px;
 		text-align: left;
 		max-width: 400px;
-		padding: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 		border-color: $color2;
 	}
 	.dp-try-code {
 		@include border-radius(10px);
 		background: #FFF;
 		margin-bottom: 4px;
-		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
 		border: 1px solid $color1-3;
 	}
 	.dp-try-editor {
@@ -24,7 +27,8 @@
 		margin-bottom: 4px;
 		text-align: left;
 		color: #fff;
-		padding: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	button {
 		border-color: $color2;

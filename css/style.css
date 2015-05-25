@@ -14,7 +14,8 @@
 .dp-try {
   color: #000;
   margin: auto;
-  max-width: 400px; }
+  max-width: 400px;
+  font-size: 14px; }
   .dp-try .dp-try-output {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -23,7 +24,8 @@
     margin-top: 4px;
     text-align: left;
     max-width: 400px;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-color: #393532; }
   .dp-try .dp-try-code {
     -webkit-border-radius: 10px;
@@ -32,7 +34,8 @@
     border-radius: 10px;
     background: #FFF;
     margin-bottom: 4px;
-    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid #20AACD; }
   .dp-try .dp-try-editor {
     -webkit-border-radius: 10px;
@@ -42,7 +45,8 @@
     margin-bottom: 4px;
     text-align: left;
     color: #fff;
-    padding: 5px; }
+    padding-left: 10px;
+    padding-right: 10px; }
   .dp-try button {
     border-color: #393532;
     margin-right: 3px; }
